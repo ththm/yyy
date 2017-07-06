@@ -2,92 +2,408 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>个人简历</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<script type="text/javascript" src="js/fontsizeset.js"></script>
-	<script type="text/javascript" src="js/zepto.min.js"></script>
-	<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/animate.min.css">
+	<title>有货boys</title>
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul li{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		.container{
+			width:1400px;
+			height: 3386px;
+			/*border: 1px solid red;*/
+			margin: 0 auto;
+		}
+		.header{
+			position: relative;
+		}
+		 /*.content{
+		 	width: 1400px;
+			margin: 0 auto;
+		 }*/
+		 /*.header .main .footer{
+		 	min-width: 1000px;
+		 }*/
+
+	</style>
 </head>
 <body>
-	<div class="wrap">
-		<!-- 音乐按钮 -->
-		<div class="music">
-			<div class="music_btn animated rotateOut infinite"></div>
-			<audio id="music_bg" src="source/DJ SLY - Hello, my friend.mp3" autoplay></audio>
-		</div>
-		<div class="main">		
-			<!-- 第一页 -->
-			<div class="page page1">
-				<img class="dh animated rotateIn" src="images/o_1b0un80kfideed1c501q8k11hsl.png" alt="">
-				<h1 class="dh animated fadeInDown delay-time">Personal resume</h1>
-				<h1 class="dh animated fadeInUp delay-time">个人简历</h1>
-			</div>	
-			<!-- 第二页 -->
-			<div class="page page2 pageDown">
-				<img class="img-1 dh hide animated fadeInDown yc-time" src="images/o_1b0undtba7bb1lgv1fdv5p216do1t.png" alt="">
-					<h2 class="h2 dh hide animated tada infinite">Personal Information</h2>
-					<h2 class="h2 dh hide animated tada infinite">个人信息</h2>
-				<img class="img-2 dh hide animated fadeInDown yc-time" src="images/o_1b0undtb91hguqav1god1h6cj4m1s.png" alt="">
-					<div class="font dh hide animated bounceInLeft">
-						<p>姓名：杨惠涵</p>
-						<p>出生年月：2000.02.10</p>
-						<p>性别：女</p>
-						<p>专业：web前端</p>
-						<p>个人名言：就算一无所有 也不缺从头再来的勇气</p>
-					</div>
-				<img class="img-3 dh hide animated bounceInRight" src="images/IMG_8452.JPG" alt="">
-					<div class="bottom-1">
-						<p class="p-1 dh hide animated flipInY">自我评价</p>
-						<img class="img-4 dh hide animated rotateIn infinite" src="images/o_1b0unhhii1btu1ck811ob1sgktfs2q.png" alt="">
-						<p class="p-2">性格开朗 待人亲切 温柔大方 乐观 兴趣广泛</p>
-					</div>
-			</div>
-			<!-- 第三页 -->
-			<div class="page page3 pageDown">
-				<img class="img-5" src="images/page3.png" alt="">
-				<h3 class="h3 dh hide animated slideInDown">想说的话</h3>
-				<p class="pp dh hide animated slideInLeft"> 在成长的过程中，<br>
-						我们终究都是要远行的<br>
-						要不断的和身边的一些人说再见<br>
-						也要不断的和稚嫩的自己说再见<br>
-						遇到的挫折都会使人成长 <br>
-						我希望自己不管经历过多少伤痛都眉头舒展着过日子<br>
-			           	内心丰盛安宁 性格澄澈豁达</p>	
-			           	<img class="xx dh hide animated fadeIn infinite" src="images/9.jpg" alt="">
-			</div>
-
-			<!-- 第四页 -->
-			<div class="page page4 pageDown">
-				<img class="img-6" src="images/page4.png" alt="">
-				<h3>生活照</h3>
-				<img class="s-1 dh hide animated pulse infinite" src="images/IMG_8452.JPG" alt="">
-				<img class="s-2 dh hide animated pulse infinite" src="images/29.jpg" alt="">
-			</div>
-			<!-- 第五页 -->
-				<div class="page page5 pageDown">
-					<h3 class="h33 dh hide animated tada">作品展示</h3>
-					<img class="w-1" src="images/o_1b0undtba7bb1lgv1fdv5p216do1t.png" alt="">
-					<a href="Yohobuy/index.html" class="aa dh hide animated pulse infinite">http://yhh123.coding.me/Yoho-Buy<a/>
-					<img class="boys" src="images/boys.png" alt="">
+	<div class="container">
+	<!--头部开始-->
+		<div class="header">	
+				<div class="top">
+					<ul class="menu">
+						<li>
+							<a class="a1" href="#">=YOHO!BUY 有货</a>
+							<ul class="ul1">
+								<li>集团官网</li>
+								<li>男生潮流</li>
+								<li>女生潮流</li>
+								<li>物趣分享</li>
+								<li>潮流嘉年华</li>
+							</ul>
+						</li>
+					</ul>
+					<p class="p1">Hi~[<a href="denglu/deng.html"><font color="#F34F1E">请登录</font></a>][<font color="#F34F1E">免费注册</font>]</p>
+					<ul id="ul2">
+						<li><a href="#">MY有货▷</a></li>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">❤我的收藏</a></li>
+						<li><a href="#">消息</a></li>
+						<li><a href="#">帮助中心</a></li>
+						<li><a href="#">手机版</a></li>
+					</ul>
 				</div>
-			<!-- 第六页 -->
-			<div class="page page6 pageDown">
-				<img class="img-7" src="images/page6.png" alt="">
-				<div class="d  dh hide animated shake">
-					<p>contact information</p>
-					<h3>联系方式</h3>
-					<hr size="2" width="50%" color="#A3BA9E">
-					<p>手机：888888888</p>
-					<p>Q  Q：244778337</p>
-					<p>地址：河北·秦皇岛</p>
-				</div>
+				<div class="center">
+					<ul class="ul3">
+						<li id="lii"><a href="../index.html"><h3>男生</h3>
+							<p>BOYS</p></a>
+						</li>
+						<li><a href="girl/girls.html"><h3>女生</h3>
+							<p>GIRLS</p></a>
+						</li>
+						<li><a href="Children/Children.html"><h3>潮童</h3>
+							<p>KIDS</p></a>
+						</li>
+						<li><a href="#"><h3>创意生活</h3>
+							<p>LIFE STYLE</p></a>
+						</li>
+					</ul>
+					<div class="hou">
+						<p id="ti">Yoho!Buy</p>
+						<input type="text" value="新品热促">
+						<img src="images/nan_03.gif">
+					</div>				
+				</div>			
+				<div class="na">
 				
-				<img class="img-8" src="images/page6-2.png" alt="">
-			</div>
+					<ul id="aaa">
+						<li>新品到货</li>
+						<li>品牌一览</li>
+						<li>服饰</li>
+						<li>鞋履</li>
+						<li>包袋</li>
+						<li>配饰^其他</li>
+						<li>领券中心</li>
+						<li>逛</li>
+						<li>SALE</li>
+					 </ul>		 			
 		</div>
+			<!--头部结束-->
+		<!--banner开始-->
+		<div id="banner">
+			  <div id="hotpic">
+			    <ul id="a-1">
+			      <li><img src="images/banner-1.jpg"></li>
+			      <li><img src="images/banner-2.jpg"></li>
+			      <li><img src="images/banner-3.jpg"></li>
+			      <li><img src="images/banner-4.jpg"></li>
+			      <li><img src="images/banner-5.jpg"></li>
+			      <li><img src="images/banner-6.jpg"></li>
+			      <li><img src="images/banner-5.jpg"></li>
+			      <li><img src="images/banner-8.jpg"></li>
+			    </ul>
+			    <ul id="a-2">
+					<li id="num1">1</li>
+					<li id="num2">2</li>
+					<li id="num3">3</li>
+					<li id="num4">4</li>
+					<li id="num5">5</li>
+					<li id="num5">6</li>
+					<li id="num5">7</li>
+					<li id="num5">8</li>
+				</ul>
+			  </div>
+			</div>
+			<!--banner结束-->
+	<!--主体部分开始-->		
+	<div class="main">
+
+		<h3>最新速报</h3>
+			<div class="ione">
+				<ul>
+					<li class="lia"><img src="images/1.jpg" alt=""></li>
+					<li><img src="images/2.jpg" alt=""></li>
+					<li><img src="images/3.jpg" alt=""></li>
+					<li><img src="images/4.jpg" alt=""></li>
+					<li class="lib"><img src="images/5.jpg" alt=""></li>
+					<li class="lic"><img src="images/6.jpg" alt=""></li>
+					<li class="lid"><img src="images/7.jpg" alt=""></li>
+					<li class="lie"><img src="images/8.jpg" alt=""></li>
+				</ul>
+			</div>
+		<h3>新品上架</h3>
+			<div class="itwo">
+				<ul id="it">
+					<li><img src="images/9.jpg" alt="">
+						<p>BLACKJACK 破坏做旧字母印花牛…</p>
+						<p>￥139.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/10.jpg" alt="">
+						<p>MADNESS MONOGRAM BULLET SHI…</p>
+						<p>￥689.00</p>
+						<a href="#">亲,快来带我回家</a>
+						
+					</li>
+					<li><img src="images/11.jpg" alt="">
+						<p>Life After life太空元素刺绣衬衫【两色…</p>
+						<p>￥259.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/12.jpg" alt="">
+						<p>Eight Guys斜纹字母衬衫【两色可选】</p>
+						<p>￥166.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/13.jpg" alt="">
+						<p>LIFT OFF 白色印花长袖衬衫</p>
+						<p>￥139.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/14.jpg" alt="">
+						<p>coradle黑白双色打底衫(2件)</p>
+						<p>￥199.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/15.jpg" alt="">
+						<p>Stussy</p>
+						<p>￥319.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/16.jpg" alt="">
+						<p>BOY LONDON环球之星图案印花T恤</p>
+						<p>￥429.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/17.jpg" alt="">
+						<p>Improper拼接长袖T恤</p>
+						<p>￥299.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/18.jpg" alt="">
+						<p>VANS W's Capsule #MYAUT#</p>
+						<p>￥260.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/19.jpg" alt="">
+						<p>Life After Life[吴亦凡&郑凯同款]…</p>
+						<p>￥239.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/20.jpg" alt="">
+						<p>BMADNESS PHOTO HOODIE 卫衣</p>
+						<p>￥869.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/21.jpg" alt="">
+						<p>into The Rainbow [易烊千玺&王俊凯]…
+						<p>￥219.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/22.jpg" alt="">
+						<p>MYGESMART 火焰字母印花连帽卫…</p>
+						<p>￥229.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/23.jpg" alt="">
+						<p>YOHO!Boy《小幺鸡》联名系列…</p>
+						<p>￥139.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/24.jpg" alt="">
+						<p>BLACKJACK 破坏做旧字母印花牛仔长…</p>
+						<p>￥379.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/25.jpg" alt="">
+						<p>PREPPY ELITE 卡通印花夹克…</p>
+						<p>￥159.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/26.jpg" alt="">
+						<p>EVE毛巾绣字母印花教练夹克…</p>
+						<p>￥179.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/27.jpg" alt="">
+						<p>MYGESMART 卡通贴布夹克…</p>
+						<p>￥199.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+					<li><img src="images/28.jpg" alt="">
+						<p>ABSURDLOGIC美式工装水洗蓝绣章…</p>
+						<p>￥519.00</p>
+						<a href="#">亲,快来带我回家</a>
+					</li>
+				</ul>
+			</div>
 	</div>
+	<!--主体部分结束-->		
+	<!--侧边栏开始-->
+	<div id="toolbar">	
+		<ul>
+			<li class="item1">
+				<div class="bar">
+					<a href="#">购物车</a>
+					<span>◆</span>
+				</div>
+			</li>
+			<li class="item2">
+				<div class="bar">
+					<a href="#">我的资产</a>
+					<span>◆</span>
+				</div>
+			</li>
+			<li class="item3">
+				<div class="bar">
+					<a href="#">我的足迹</a>
+					<span>◆</span>
+				</div>
+			</li>
+			<li class="item4">
+				<div class="bar">
+					<a href="#">我的账号</a>
+					<span>◆</span>
+				</div>
+			</li>
+			<li class="item5">
+				<div class="bar">
+					<a href="#">我的充值</a>
+					<span>◆</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!--侧边栏结束-->
+	<!--尾部开始-->
+		<div class="footer">
+			<div class="o">
+				<img src="images/nan1_03.gif">
+				<img src="images/nan1_05.gif">
+				<img src="images/nan1_07.gif">
+			</div>
+			<hr size="1" width="100%" color="white">
+			<div class="oo">
+				<ul class="lu1">
+					<li>新手专区</li>
+					<li>注册登录</li>
+					<li>购物结算</li>
+					<li>下单支付</li>
+					<li>收货评价</li>
+				</ul>
+				<ul class="lu2">
+					<li>会员中心</li>
+					<li>会员制度</li>
+					<li>会员优惠</li>
+					<li>账户管理</li>
+					<li>密码管理</li>
+				</ul>
+				<ul class="lu3">
+					<li>购物指南</li>
+					<li>发票</li>
+					<li>尺码解读</li>
+					<li>下单支付</li>
+					<li>商品咨询</li>
+				</ul>
+				<ul class="lu4">
+					<li>支付方式</li>
+					<li>在线支付</li>
+					<li>货到付款</li>
+					<li>分期支付</li>
+					<li>优惠券、有货币</li>
+				</ul>
+				<ul class="lu5">
+					<li>配送方式</li>
+					<li>配送说明</li>
+					<li>运费说明</li>
+					<li>验货签收</li>
+					<li>收货样品</li>
+				</ul>
+				<ul class="lu6">
+					<li>售后服务</li>
+					<li>退换货政策</li>
+					<li>退换货流程</li>
+					<li>时效承诺</li>
+					<li>投诉与建议</li>
+				</ul>
+				<ul class="lu7">
+					<li>APP常见问题</li>
+					<li>iPhone版</li>
+					<li>ANDROID版</li>
+					<li>wap版</li>
+					<li>iPAD版</li>
+				</ul>
+			</div>
+			<div class="ooo">
+				<img src="images/nan1_12.gif">
+				<img src="images/credit-flag3.png">
+				<img src="images/isc2.png">
+			</div>
+			<div class="oooo">
+				<ul>
+					<li>返回首页</li>
+					<li>YOHO!BUY有货</li>
+					<li>心力传媒</li>
+					<li>联系我们</li>
+					<li>商家入驻</li>
+					<li>隐私条款</li>
+					<li>友情链接</li>
+				</ul><br>
+
+			</div><p>CopyRight
+				&copy2007-2016南京新与力文化传播有限公司 苏ICP备09011225号NewPower.Co.版权所有 经营许可证编号：苏B2-20120395</p>
+		</div>
+		<!--尾部结束-->		
+</div>
 </body>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+$(".header .na #aaa li").click(function(){
+	 	$(this).addClass("ppap").siblings().removeClass("ppap");
+	 });
+
+	$(".menu>li").hover(function(){
+		 $(this).find(".ul1").show();
+	},function(){ 
+		$(this).find(".ul1").hide();
+	})
+
+	 $("#a-2 li").click(function(){
+		var index=$(this).index()
+	$("#a-1").stop().animate({marginLeft:index*-1150});
+	   $(this).addClass("y1").siblings().removeClass("y1");
+	})
+
+	 $(".ione li").hover(function(){
+		$(this).stop().fadeTo(200,0.8)},function(){
+		$(this).stop().fadeTo(200,1);
+     })
+
+	 $("#toolbar li").hover(function(){
+		$(this).find(".bar").show().animate({right:"43",opacity:"1"},500);
+		$(this).addClass("select")
+	},function(){
+		$(this).find(".bar").show().animate({right:"60",opacity:"0"},500,function(){
+			$(this).hide();
+		});
+		$(this).removeClass("select");
+	});
+	 $(".main #it li").hover(
+		function(){
+          $(this).find("a").stop().animate({opacity:"1"},300);
+		  },
+	   function(){
+          $(this).find("a").stop().animate({opacity:"0"},300);
+	   }) ;
+</script>
 </html>

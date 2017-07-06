@@ -1,0 +1,165 @@
+.header .top{
+	width:100%;
+	height: 40px;
+	background: #F4F4F4;
+}
+.header .top a{
+	color: black;
+}
+.ul1{
+	display: none;
+	background: #F8F8F8;
+	width: 200px;
+	height: 180px;		
+	color: #8E8E8E;	
+	cursor: pointer;
+	/*margin-top: 30px;*/
+	position: absolute;
+}
+.ul1 li{
+	/*margin-top:10px;*/
+	background: #F1F1F1;
+	text-indent: 10px;
+}
+.menu .ul1 li:hover{
+	background:#3A3A3A;
+	font-size: 18px;
+	color:white;
+}
+.menu{
+	margin-left:100px;
+	line-height:40px;
+}
+.p1{
+	position: absolute;
+	left: 630px;
+	top: 10px;
+}
+#ul2{
+	position: absolute;
+	left: 790px;
+	top: 10px;
+}
+#ul2 li{
+	float: left;
+	margin-left: 14px;
+}
+#ul2 li a:hover{
+	color: red;
+	font-size: 17px;
+}
+.center{
+	/*position: relative;*/
+}
+.center ul li{
+	float: left;
+	margin-left:15px; 
+}
+.ul3{
+	margin-left:90px;
+	margin-top: 50px;
+	text-align: center;
+}
+.center #lii a{
+	background:#3A3A3A;
+	color: white;
+}
+.ul3 p{
+	font-size: 13px;
+	/*color: orange;*/
+}
+.ul3 a{
+	display: block;
+	color: black;
+}
+	
+.header .center #ti{
+	font-size: 50px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	position: absolute;
+	left: 520px;
+	top: 50px;
+}
+.center input{
+	width: 190px;
+	height: 30px;
+	margin-left: 550px;
+}
+.center img{
+	position: absolute;
+	top:90px;
+	margin-left: -10px;
+	height: 32px;
+}
+.na{
+	background: #3A3A3A;
+	width: 100%;
+	height: 40px;
+	color: white;
+	margin-top: 9px;
+	line-height: 40px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.na ul{
+    margin-left: 50px;
+}
+.na ul li{
+	/*border: 1px solid white;*/
+	font-size: 17px;
+	margin-left: 50px;
+	text-align: center;
+	float: left;
+	width: 80px;
+}
+.na ul li:hover{
+	background:white;
+	color:#3A3A3A;
+}
+.ppap{
+	background:white;
+	color:#3A3A3A;
+}
+#banner{
+	width: 1150px;
+	height: 450px;
+	/*border: 1px solid red;*/
+	margin-left: 100px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+#banner #hotpic #a-1{
+	width: 9200px;
+	height: 450px;
+	/*border: 2px solid black;*/
+}
+#banner img{
+	width: 1150px;
+}
+#banner #hotpic ul li{
+	float: left;
+}
+#banner #a-2 {
+  	position:relative; 
+	top: -44px;
+	left: 780px;
+	color: red;
+	cursor: pointer;
+	opacity: 0.7;
+}
+#banner #a-2 li{
+	width: 30px;																																																																																											
+	height: 30px;
+	/*border: 1px solid red;*/
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+	background:black;
+	color: white;
+	margin-left: 5px;
+}
+#banner #a-2 .y1{
+	background: white;
+	color:black;
+}

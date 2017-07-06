@@ -1,0 +1,46 @@
+.footer{
+	width:100%;
+	height: 400px;
+	background:black;
+	color: #606561;
+	font-size: 15px;
+	cursor: pointer;
+}
+.footer .o img{
+	margin-left: 30px;margin-top: 30px;
+}
+.footer .o{
+	margin-left:90px;
+}
+.footer .oo{
+	overflow: hidden;
+	margin-left: 30px;
+}
+.footer .oo ul{
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.footer .oo ul li:hover{
+	color: white;
+	font-size: 16px;
+}
+.footer .ooo img{
+	margin-top: 30px;
+	margin-left:20px; 
+}
+.footer .ooo{
+	margin-left:90px; 
+}
+.footer .oooo ul li{
+	float: left;
+	margin-left:20px;
+}
+.footer .oooo{
+	overflow: hidden;
+	margin-left: 380px;
+	margin-top: -40px;
+}
+.footer p{
+	margin-left:400px;
+}
